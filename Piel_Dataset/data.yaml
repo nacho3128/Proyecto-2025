@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['piel']
+
+roboflow:
+  workspace: proyecto-xwzu2
+  project: proyecto-2025-partes-del-cuerpo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/proyecto-xwzu2/proyecto-2025-partes-del-cuerpo/dataset/1
