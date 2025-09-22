@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 24
+names: ['Eritema 2', 'edema 1', 'edema 2', 'edema 3', 'edema1', 'eritema 1', 'eritema 3', 'eritema1', 'excoriacioin 2', 'excoriacion 1', 'excoriacion 2', 'excoriacion 3', 'exudaacion 1', 'exudacion  3', 'exudacion 1', 'exudacion 2', 'exudacion 3', 'exudacion2', 'liquenificacion 1', 'liquenificacion 2', 'liquenificacion 3', 'xerosis 1', 'xerosis 2', 'xerosis 3']
+
+roboflow:
+  workspace: proyecto-xwzu2
+  project: proyecto-2025-dermatitis-atopica-xthcf
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/proyecto-xwzu2/proyecto-2025-dermatitis-atopica-xthcf/dataset/5
